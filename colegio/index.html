@@ -1,0 +1,175 @@
+
+<html>
+    <head>
+        <title>Colegio nuevo horizonte</title>
+        <script src ="js/funciones.js"></script>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>        
+    </head>
+    <body>
+        
+        <div id="cnt_encabezado">
+            <img src="img/logo_colegio(2).png" width="100" height="100">    
+            <h1>Colegio Nuevo Horizonte.</h1>
+            <h4>Educación integral para un futuro brillante.</h4>
+            <div class="cnt_narvar">
+                <ul>
+                    <li><a href="...">Inicio</a></li>
+                    <li><a href="...">Admicion</a></li>
+                    <li><a href="...">Sedes</a></li>
+                    <li><a button onclick="ver_login()" id="btn_login"  type="button">Login</button></a></li>                    
+                    
+                    <div id="formulario">
+                        <h2>Login</h2>
+                        <form onsubmit="return iniciarSesion(event)" >
+                        <label for="usuario">Usuario:</label><br>
+                        <input type="text" id="usuario" name="usuario" required><br>
+                    
+                        <label for="contrasena">Contraseña:</label><br>
+                        <input type="password" id="contrasena" name="contrasena" required><br>
+                    
+                        <button id="btn_entrada" type="submit">Entrar</button>
+                        </form>
+                        <p id="mensaje"></p>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div cass="intro">
+            
+            
+            <div class="contenedor_intro">
+                <h3>Bienvenidos al Colegio Nuevo Horizonte</h3>
+                <h5>En Colegios Nuevo Horizonte, combinamos aprendizaje académico, bienestar socioemocional y competencias digitales. Fomentamos la resiliencia, empatía y creatividad, formando estudiantes seguros y preparados para un mundo en cambio.<br />
+                <br />
+                En Nuevo Horizonte, educamos con visión de futuro: confianza, carácter y flexibilidad para enfrentar cualquier desafío.</h5>
+            </div>
+            <div class="img_open">
+                <img src="img/open_house.png" alt="open_house">
+            
+            </div>
+            
+        </div>
+        <div class="cnt_cards">
+            <div class="card_1" id="noticia_1" style="width: 18rem;">
+                <img src="img/atletismo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">¡La energía se vive fuera del aula! Actividades extraprogramáticas en el Colegio Nuevo Horizonte</h5>
+                    <button class="boton_ver_más" id="btn_Ver" onclick="ver_Más()">Ver Más</button>
+                    <div class="contenido_1" id="contenidoNoticia">
+                        <p>
+                        En el <strong>Colegio Nuevo Horizonte</strong>, creemos que la formación integral de nuestros estudiantes va más allá de las clases. Por eso, este año hemos potenciado nuestras 
+                        <strong>actividades extraprogramáticas</strong>, entregando a nuestros alumnos diversas oportunidades para descubrir sus talentos, compartir con sus compañeros y desarrollar nuevas habilidades.
+                        </p>
+              
+                        <p>
+                        Entre las opciones disponibles, destacan talleres como <em>música, arte, ajedrez, ciencia divertida</em>, y por supuesto, <strong>atletismo</strong>, una disciplina que ha despertado gran entusiasmo entre nuestros estudiantes.
+                        </p>
+              
+                        <p>
+                        El <strong>taller de atletismo</strong> no solo promueve la actividad física, sino que también fortalece valores como la perseverancia, el trabajo en equipo y la superación personal. 
+                        ¡La pista se ha transformado en uno de los espacios más activos del colegio!
+                        </p>
+              
+                        <p>
+                        Estas instancias no solo complementan el aprendizaje académico, sino que también contribuyen a una vida escolar más feliz y equilibrada.
+                        </p>
+              
+                        <p>
+                        <strong>¡En el Colegio Nuevo Horizonte, el aprendizaje no termina cuando suena la campana!</strong>
+                        </p>
+                    </div>    
+                </div>
+            </div>
+            <div class="card_1" id="noticia_2" style="width: 18rem;">
+                <img src="img/integracion.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Programa de Integración Escolar Refuerza Apoyo a Estudiantes Neurodivergentes</h5>
+                    <button class="boton_ver_más" id="btn_Ver_2" onclick="ver_Más_2()">Ver Más</button>
+                    <div class="contenido_2" id="contenidoNoticia_2">
+                        <p>Nuestro Programa de Integración Escolar (PIE) continúa desarrollando estrategias inclusivas para acompañar a estudiantes neurodivergentes. 
+                            A través de adaptaciones curriculares, talleres sensoriales y el trabajo colaborativo entre docentes y especialistas, 
+                            buscamos que cada estudiante aprenda a su ritmo y en un ambiente respetuoso.
+                        </p>
+                        <p>
+                            “La diversidad nos enriquece”, comentó una de las educadoras diferenciales del colegio.
+                        </p>
+                        <p>
+                            Agradecemos a las familias por su compromiso y confianza en este proceso educativo inclusivo.
+                        </p>
+
+                    </div>    
+                </div>
+            </div>
+            <div class="card_1" id="noticia_3" style="width: 18rem;">
+                <img src="img/simse.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Estudiantes del Colegio Nuevo Horizonte Destacan en el SIMCE 2024</h5>
+                    <button class="boton_ver_más" id="btn_Ver_3" onclick="ver_Más_3()">Ver Más</button>
+                    <div class="contenido_3" id="contenidoNoticia_3">
+                        <p>nuestros estudiantes de <strong>4° básico y 2° medio</strong> obtuvieron excelentes resultados en la prueba SIMCE, especialmente en las áreas de Lectura y Matemáticas.
+                         El equipo docente y directivo del colegio felicita a todos los estudiantes por su compromiso, así como a las familias por el apoyo constante. Estos resultados reflejan el trabajo en equipo y la dedicación de nuestra comunidad educativa.
+                        </p>
+                        <p>    
+                            <strong>¡Seguimos avanzando juntos en la formación integral de nuestros estudiantes!.</strong>
+                        </p>
+              
+                       
+                    </div>    
+                </div>
+            </div>
+            <div class="card_1" id="noticia_4" style="width: 18rem;">
+                <img src="img/salud_mental.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cuidemos Nuestra Mente: Inicia Campaña de Salud Mental en el Colegio Nuevo Horizonte</h5>
+                    <button class="boton_ver_más" id="btn_Ver_4" onclick="ver_Más_4()">Ver Más</button>
+                    <div class="contenido_4" id="contenidoNoticia_4">
+                        <p>Durante el mes de abril, nuestro colegio ha lanzado una campaña enfocada en la salud mental de nuestros estudiantes. 
+                            Charlas, talleres y espacios de conversación han sido organizados para promover el autocuidado, la empatía y el bienestar emocional.
+                        </p>
+                        <p>
+                            “Queremos que nuestros estudiantes se sientan escuchados, acompañados y seguros”, explicó la orientadora escolar.
+                        </p>
+                        <p>
+                            Invitamos a padres, apoderados y estudiantes a participar activamente de las actividades programadas durante el mes.
+                        </p>
+              
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div id="carousel" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Biblioteca_(2).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/aula(2).avif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gimnasio.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+            
+    
+
+    </body>
+
+</html>

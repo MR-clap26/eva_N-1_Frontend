@@ -1,0 +1,144 @@
+
+ul {
+    display: inline;
+    list-style-type: none;
+}
+
+li {
+        float: left;
+        margin: 15px;
+        ;
+      }
+      
+li a {
+        display: block;
+        margin-left: 25px;
+        margin-right: 15px;
+        padding-top:10px;;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #2f4471;
+        color: white;
+        text-decoration: none;}
+
+.cnt_narvar{
+  display: flex;
+ 
+}    
+
+
+  
+#cnt_encabezado
+ { 
+    background-color: #2F4470;
+    padding-left: 15px;
+    color: white;
+
+}
+
+#formulario
+ { 
+    display: none;
+    background-color: #2F4470;
+    padding-top: 50px;
+    padding-left: 15px;
+    color: white;
+    border-radius: 15px;
+    border-width: 1px;
+    
+}
+#btn_entrada{
+    background-color: white;
+    margin-top: 5px;
+    color:black;
+    padding-top:2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+
+
+}
+
+ 
+
+  .boton_ver_más {
+    background-color: #5882D6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 170px;
+  }
+
+  .contenido_1,.contenido_2,.contenido_3,.contenido_4 {
+    margin-top: 20px;
+    display: none;
+    color: #333;
+  }
+  #titulo_intro {
+    margin-top: 40px;
+    margin-bottom: 2px;
+    padding-top: 20px;
+    padding-left: 15px;
+    color: black;
+    border-radius: 15px;
+    border-width: 1px;}
+  
+  
+#carosel{
+    margin-top: 50px;
+}
+h5{
+    padding: 15px;
+}
+p{
+    padding: 10px;
+}
+.cnt_cards{
+  display: flex;
+
+}
+#noticia_1,#noticia_2,#noticia_3,#noticia_4 {
+  width: 50%; 
+  padding: 10px;
+  box-sizing: border-box;
+  background-color:white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 1, 0.1);
+  max-width: 700px;
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  padding: 0px 0px;
+}
+
+
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  gap: 30px;
+}
+
+.contenedor_intro,.img_open {
+  max-width: 500px;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+  padding-left: 20px;
+  flex: 1;
+ 
+}
+
+
